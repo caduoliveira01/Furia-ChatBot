@@ -54,11 +54,15 @@ POST /api/chat
 Esse endpoint recebe uma mensagem do usuário e retorna uma resposta de acordo com as palavras-chave ou utilizando a IA.
 
 Request:{
+
   "message": "Qual o calendario da furia?"
-}/n
-Resposta:
-{
+  
+}
+
+Resposta:{
+
   "reply": "Próximos jogos: hltv.org/team/8297/FURIA (atualizado ao vivo)."
+  
 }
 
 ## Desenvolvido por:
