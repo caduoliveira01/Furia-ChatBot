@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: frontend
+    env: docker
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    dockerfilePath: ./frontend/Dockerfile
+    envVars:
+      - key: VITE_BACKEND_URL
+        value: https://backend.onrender.com
+  - type: web
+    name: backend
+    env: docker
+    buildCommand: npm install
+    startCommand: npm start
+    dockerfilePath: ./backend/Dockerfile
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://caduolivera17:ijH9BZnTCO5EV3kf@cluster0.dvlfvuq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
