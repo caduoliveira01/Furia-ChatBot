@@ -48,14 +48,14 @@ Se a mensagem contém uma keyword conhecida, o bot retorna uma resposta registra
 
 Se não houver resposta registrada, o bot faz uma chamada para a API de inteligência artificial do Hugging Face para gerar uma resposta.
 
-Endpoint de Chat
+## Endpoint de Chat
 POST /api/chat
 
 Esse endpoint recebe uma mensagem do usuário e retorna uma resposta de acordo com as palavras-chave ou utilizando a IA.
 
 Request:{
   "message": "Qual o calendario da furia?"
-}
+}/n
 Resposta:
 {
   "reply": "Próximos jogos: hltv.org/team/8297/FURIA (atualizado ao vivo)."
