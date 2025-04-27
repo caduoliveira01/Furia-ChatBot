@@ -29,9 +29,12 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:3001/api/chat", {
-        message: input,
-      });
+      const response = await axios.post(
+        "https://furia-chatbot-3dxa.onrender.com/api/chat",
+        {
+          message: input,
+        }
+      );
 
       const botMessage = {
         text: response.data.reply,
