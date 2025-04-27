@@ -12,7 +12,7 @@ const LOCAL_KNOWLEDGE = {
     "Elenco 2025: KSCERATO, yuurih, FalleN, molodoy, YEKINDAR (última atualização)",
   ranking:
     "Ranking HLTV 2025: Top 20 mundial (verifique em hltv.org/ranking/teams)",
-  calendario: "Próximos jogos: hltv.org/team/8297/FURIA (atualizado ao vivo)",
+  calendário: "Próximos jogos: hltv.org/team/8297/FURIA (atualizado ao vivo)",
   última: "Consulte resultados em tempo real: hltv.org/matches",
   próximo: "Calendário oficial: furia.gg/agenda",
   títulos:
