@@ -18,27 +18,18 @@ Antes de rodar o projeto, é necessário ter os seguintes softwares instalados:
 - **Docker**: [Link de instalação](https://www.docker.com/get-started)
 - **MongoDB Atlas**: Configurar um banco de dados MongoDB no Atlas. Você pode seguir [este guia de configuração](https://www.mongodb.com/cloud/atlas) para criar uma conta e obter a URI de conexão.
 
-## Como Rodar o Projeto
+## Como Acessar o Projeto
 
-## Com Docker
+## Acessando o link abaixo 
+Link da aplicação: https://furia-chat-bot-lake.vercel.app
+
+## Rodando localmente com Docker
 
 ```bash
 Clone o repositório: git clone https://github.com/caduoliveira01/Furia-ChatBot.git 
 Entre na pasta: cd Furia-ChatBot
 Em seguida cria um arquivo .env na raiz do backend como mostrado no .env.example com suas chaves.
 Abra o docker desktop e insira esse comando no terminal do projeto: docker-compose up --build
-```
-
-## Sem Docker
-```bash
-Clone o repositório: git clone https://github.com/caduoliveira01/Furia-ChatBot.git 
-Entre na pasta: cd Furia-ChatBot/backend
-Em seguida cria um arquivo .env na raiz do backend como mostrado no .env.example com suas chaves.
-Digite o comando npm install
-Digite o comando node server.js
-Entre na pasta: cd Furia-ChatBot/frontend
-Digite o comando npm install
-Digite o comando npm run dev e abra a porta 5137 (padrão vite) no seu localhost
 ```
 
 ## Como funciona
