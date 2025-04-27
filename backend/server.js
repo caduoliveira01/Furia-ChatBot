@@ -18,7 +18,6 @@ mongoose
   .then(async () => {
     console.log("✅ Conectado ao MongoDB Atlas");
 
-    // Inserir dados depois de conectar
     await insertData();
 
     app.listen(PORT, () => {
