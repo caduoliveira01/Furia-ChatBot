@@ -5,7 +5,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 const Response = require("./models/Response");
-const insertData = require("./insertData"); // 👈 Importa aqui
+const insertData = require("./insertData");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
