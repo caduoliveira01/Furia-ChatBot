@@ -46,7 +46,7 @@ Esse endpoint recebe uma mensagem do usuário e retorna uma resposta de acordo c
 
 Request:{
 
-  "message": "Qual o calendario da furia?"
+  "message": "Qual o calendário da furia?"
   
 }
 
